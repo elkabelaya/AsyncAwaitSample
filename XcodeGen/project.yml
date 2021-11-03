@@ -1,0 +1,25 @@
+name: AsyncAwaitSample
+options:
+  bundleIdPrefix: com.elkabelaya
+  xcodeVersion: '13.2'
+  deploymentTarget: '13.0'
+  groupSortPosition: top
+  generateEmptyDirectories: true
+  minimumXcodeGenVersion: '2.25.0'
+
+configs:
+  Debug: debug
+  Release: release
+
+targets:
+  AsyncAwaitSample:
+    type: application
+    platform: iOS
+    deploymentTarget: 13.0
+    settings:
+      base:
+        MARKETING_VERSION: 1.0
+        CURRENT_PROJECT_VERSION: 1
+        PRODUCT_BUNDLE_IDENTIFIER: com.elkabelaya.AsyncAwaitSample
+    sources:
+       - path: ../AsyncAwaitSample
